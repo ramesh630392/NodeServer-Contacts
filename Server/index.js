@@ -11,9 +11,9 @@ dotenv.config();
 
 app.use('/contacts', contactRouter);
 
-/*app.listen(3000, ()=>{
+app.listen(3000, ()=>{
     console.log("http://localhost:3000/contacts");
     dbConnect();
-});*/
+});
 
-export default serverless(app);
+//export default serverless(app);
