@@ -1,8 +1,8 @@
 import express, { request, response } from 'express';
-import { getAllContacts, getContactById } from '../handler/getApi.js';
-import { deleteContactById } from '../handler/deleteApi.js';
-import { updateContactById } from '../handler/updateApi.js';
-import { addContact } from '../handler/postApi.js';
+import { getAllContacts, getContactById } from '../handler/getHandler.js';
+import { deleteContactById } from '../handler/deleteHandler.js';
+import { updateContactById } from '../handler/updateHandler.js';
+import { addContact } from '../handler/postHandler.js';
 
 const router = express.Router();
 
